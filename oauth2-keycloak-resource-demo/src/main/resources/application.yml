@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+security:
+  oauth2:
+    client:
+      clientId: app-resource-server
+      clientSecret: 811b112c-a178-40f5-b512-6caed12fde9c
+    resource:
+      tokenInfoUri: http://192.168.1.110:9001/auth/realms/myrealm/protocol/openid-connect/token/introspect

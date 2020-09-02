@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+security:
+  oauth2:
+    client:
+      clientId: 0oarolv9yRaQgdIM24x6
+      clientSecret: nwKrONKuZJ0mF-dt1EMJOOUzNuXdSOo9IoiLjxdO
+    resource:
+      tokenInfoUri: https://dev-734652.okta.com/oauth2/default/v1/introspect
